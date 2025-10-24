@@ -1,0 +1,169 @@
+ [
+    { "question": "What does AI stand for?", "answers": ["a) Advanced Intelligence", "b) Artificial Information", "c) Artificial Intelligence", "d) Automated Interface"], "correctAnswer": "c" },
+    { "question": "Which of the following is a subset of AI that focuses on enabling machines to learn from data?", "answers": ["a) Robotics", "b) Machine Learning", "c) Computer Vision", "d) Natural Language Processing"], "correctAnswer": "b" },
+    
+    {"question": "What does AI stand for?",
+        "answers": ["a) Advanced Intelligence", "b) Artificial Information", "c) Artificial Intelligence", "d) Automated Interface"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which of the following is a subset of AI that focuses on enabling machines to learn from data?",
+        "answers": ["a) Robotics", "b) Machine Learning", "c) Computer Vision", "d) Natural Language Processing"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the term for AI systems that can understand and process human language?",
+        "answers": ["a) Expert Systems", "b) Neural Networks", "c) Natural Language Processing (NLP)", "d) Fuzzy Logic"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which type of machine learning involves training a model on labeled data?",
+        "answers": ["a) Unsupervised Learning", "b) Reinforcement Learning", "c) Supervised Learning", "d) Deep Learning"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is a neural network inspired by?",
+        "answers": ["a) The human brain", "b) Computer algorithms", "c) Mathematical equations", "d) Chemical reactions"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which AI technique is used in self-driving cars to detect objects?",
+        "answers": ["a) NLP", "b) Expert Systems", "c) Computer Vision", "d) Fuzzy Logic"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What type of learning involves an agent interacting with an environment and learning through trial and error?",
+        "answers": ["a) Supervised Learning", "b) Unsupervised Learning", "c) Reinforcement Learning", "d) Deep Learning"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the term for AI systems that can mimic human decision-making?",
+        "answers": ["a) Neural Networks", "b) Expert Systems", "c) Machine Learning", "d) Robotics"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of these is a popular deep learning framework?",
+        "answers": ["a) Java", "b) Python", "c) TensorFlow", "d) HTML"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the goal of unsupervised learning?",
+        "answers": ["a) To predict labels from input data.", "b) To find patterns in unlabeled data.", "c) To train an agent to maximize rewards.", "d) To create expert systems."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is a chatbot an example of?",
+        "answers": ["a) Computer Vision", "b) NLP", "c) Robotics", "d) Expert Systems"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the 'Turing Test' designed to evaluate?",
+        "answers": ["a) Machine's ability to perform complex calculations.", "b) Machine's ability to understand human language.", "c) Machine's ability to exhibit intelligent behavior indistinguishable from that of a human.", "d) Machine's ability to control robots."],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which of the following is a risk associated with AI?",
+        "answers": ["a) Increased productivity.", "b) Job displacement.", "c) Improved healthcare.", "d) Enhanced communication."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the process of training a neural network called?",
+        "answers": ["a) Compilation", "b) Optimization", "c) Backpropagation", "d) Debugging"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the term for a computer's ability to 'see' and interpret visual information?",
+        "answers": ["a) NLP", "b) Computer Vision", "c) Robotics", "d) Expert Systems"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is an application of AI in healthcare?",
+        "answers": ["a) Weather forecasting", "b) Fraud detection", "c) Disease diagnosis", "d) Stock market prediction"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the term for AI that can perform a wide range of intellectual tasks like a human?",
+        "answers": ["a) Narrow AI", "b) Weak AI", "c) General AI", "d) Specialized AI"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the purpose of an activation function in a neural network?",
+        "answers": ["a) To store data", "b) To perform calculations", "c) To introduce non-linearity", "d) To manage memory"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the 'singularity' in the context of AI?",
+        "answers": ["a) A point where AI becomes useless.", "b) A point where AI surpasses human intelligence.", "c) A point where AI can only perform one task.", "d) A point where AI becomes predictable."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of these is a common application of AI in finance?",
+        "answers": ["a) Image editing", "b) Music composition", "c) Fraud detection", "d) Video game development"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the term for bias in AI algorithms due to biased training data?",
+        "answers": ["a) Algorithm efficiency", "b) Data integrity", "c) Algorithmic bias", "d) Computational speed"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is a 'knowledge base' in an expert system?",
+        "answers": ["a) A collection of algorithms.", "b) A database of facts and rules.", "c) A set of neural networks.", "d) A user interface."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the purpose of a 'loss function' in machine learning?",
+        "answers": ["a) To measure the accuracy of the model.", "b) To calculate the speed of the algorithm.", "c) To track the memory usage.", "d) To define the user interface."],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which of these is an example of a 'narrow AI' application?",
+        "answers": ["a) A robot that can perform any human task.", "b) A chess-playing program.", "c) An AI that can write novels.", "d) An AI that can understand all languages."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the term for AI systems that can learn and adapt over time?",
+        "answers": ["a) Static AI", "b) Adaptive AI", "c) Fixed AI", "d) Rigid AI"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is a 'convolutional neural network' (CNN) commonly used for?",
+        "answers": ["a) Text analysis", "b) Image recognition", "c) Speech synthesis", "d) Database management"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the term for the process of converting human speech into text?",
+        "answers": ["a) Text-to-speech", "b) Speech recognition", "c) Language translation", "d) Natural language generation"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is a challenge in developing ethical AI?",
+        "answers": ["a) Increasing computational power.", "b) Ensuring fairness and transparency.", "c) Reducing data storage costs.", "d) Improving algorithm speed."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is 'deep learning' characterized by?",
+        "answers": ["a) Using simple algorithms.", "b) Having multiple hidden layers in neural networks.", "c) Requiring minimal data for training.", "d) Being easily interpretable."],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the term for using AI to create realistic images or videos?",
+        "answers": ["a) Virtual Reality (VR)", "b) Augmented Reality (AR)", "c) Deepfake", "d) Hologram"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the term for a machine learning model that is trained on a massive dataset and can be fine-tuned for specific tasks?",
+        "answers": ["a) Capsule Network", "b) Generative Adversarial Network (GAN)", "c) Foundation Model", "d) Recurrent Neural Network (RNN)"],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which of the following is an example of AI being used in customer service?",
+        "answers": ["a) Personalized product recommendations", "b) Chatbots answering frequently asked questions", "c) Fraud detection in online transactions", "d) Medical diagnosis based on patient data"],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the purpose of a Recurrent Neural Network (RNN)?",
+        "answers": ["a) Image recognition", "b) Processing sequential data", "c) Data compression", "d) Generating random numbers"],
+        "correctAnswer": "b"
+    }
+]

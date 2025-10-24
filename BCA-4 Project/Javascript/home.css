@@ -1,0 +1,13 @@
+body {
+    font-family: 'Itim', sans-serif;
+    margin: 0;
+    background-image: url("bg_cyberpunk4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-color: #f0f0f0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}

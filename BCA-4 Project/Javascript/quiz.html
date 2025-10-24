@@ -1,0 +1,129 @@
+body {
+    font-family: 'Itim', sans-serif; 
+    margin: 0; 
+    background-image: url("bg_cyberpunk4.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; 
+
+    background-color: #f0f0f0; 
+    display: grid;
+    place-items: center; 
+    min-height: 100vh;
+}
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-rows: auto auto 1fr; /* Adjust rows as needed */
+    gap: 20px; /* Spacing between grid items */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Set a maximum width */
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #0000006f;
+
+}
+
+#intro1{
+    text-align: center;
+    color:#d1f7ff; 
+    margin-bottom: 20px;
+}
+#intro2{
+    text-align: center;
+    color: #d1f7ff; 
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+  .btn-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+     span {
+        font-size: 1rem; 
+        padding: 10px 15px; 
+        font-weight: bolder;
+
+    }
+.btn-box{
+    text-align: center;
+}
+.btn-box button{
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff0084ec; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Space between button and links */
+}
+/* Media Query for mobiles */
+@media(max-width:480px){
+    .welcome{
+        padding: 10px;
+    }
+    #intro1{
+        padding: 10px;
+    }
+    #intro2{
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    span{
+        font-size: 1.8rem; 
+        padding: 10px 15px; 
+        font-weight: bolder;
+
+    }
+    .btn-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+/* Media query for tablet */
+@media(max-width:768px){
+    .welcome{
+        padding: 20px;
+    }
+    #intro2{
+        font-size: 1.7rem;
+    }
+    span {
+        font-size: 1.8rem; 
+        padding: 10px 15px; 
+        font-weight: bolder;
+
+    }
+    .btn-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+/* larger screen  */
+@media (min-width: 992px) and (max-width: 1200px){
+    .welcome{
+        padding: 10px;
+    }
+    #intro1{
+        padding: 5px;
+    }
+    #intro2{
+        font-size: 1.7rem;
+        padding: 5px;
+    }
+    span {
+        font-size: 1.8rem; 
+        padding: 10px 15px; 
+        font-weight: bolder;
+
+    }
+    .btn-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}

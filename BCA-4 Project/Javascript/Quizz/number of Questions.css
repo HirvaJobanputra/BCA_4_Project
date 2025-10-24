@@ -1,0 +1,87 @@
+/* Modifications to style.css (adjust as needed) */
+
+#question-selection {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#question-selection h2 {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    color: #ddd;
+    text-shadow: 0 0 5px #00BFFF; /* Blue neon */
+}
+.question-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.4); /* Neon pink glow */
+}
+
+.question-card .card-title {
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 0 0 3px #00BFFF;
+}
+
+/* Modified CSS for question-select.html (put in style.css) */
+
+/* Reset the flex direction that might be affecting text layout inside the card */
+.question-card {
+    display: flex;
+    flex-direction: column; /* IMPORTANT: Adjust as needed, but generally 'column' is correct for stacking content inside the card */
+    align-items: center;
+    justify-content: center; /* Vertically center the title */
+    text-decoration: none;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Ensure the card titles are centered */
+.question-card .card-title {
+    font-size: 1.3em;
+    text-align: center; /* Keep the text centered inside the card */
+    text-shadow: 0 0 3px #00BFFF;
+}
+
+/*  If the cards are stacking vertically, check the card-container CSS */
+.card-container {
+    display: flex;      /* This makes the cards horizontal */
+    justify-content: center;  /* Horizontally center the cards in the container */
+    gap: 2em;           /* Space between the cards */
+    flex-wrap: wrap;    /* Allow cards to wrap to the next line on small screens */
+}
+/* Apply to all cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.difficulty-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Vertically center the title */
+    text-decoration: none;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Ensure the card titles are centered */
+.difficulty-card .card-title {
+    font-size: 1.3em;
+    text-align: center; /* Keep the text centered inside the card */
+    text-shadow: 0 0 3px #00BFFF;
+}

@@ -1,0 +1,103 @@
+body {
+    font-family: 'Itim', sans-serif;
+    margin: 0;
+    background-image: url("bg_cyberpunk4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-color: #f0f0f0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto; /* Add extra row for spacing */
+    gap: 10px; /* Space between rows */
+    width: 100%;
+    max-width: 600px;
+    background-color: #0000006f;
+    padding: 20px;
+    border: 1px solid white;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#intro1 {
+    text-align: center;
+    color: #d1f7ff;
+    margin-bottom: 20px;
+}
+
+#intro2 {
+    
+    text-align: center;
+    color: #d1f7ff;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: rgb(255, 0, 200);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 0 5px rgb(255, 0, 200), 0 0 25px rgb(255, 0, 200);
+    /* display: block; */
+}
+.btn :hover {
+    box-shadow: 0 0 5px rgb(255, 0, 200),  0 0 25px rgb(255, 0, 200),  0 0 50px rgb(255, 0, 200),  0 0 100px rgb(255, 0, 200), 0 0 200px rgb(255, 0, 200);
+}
+.welcome .btn:first-child {
+    margin-bottom: 15px; /* Adjust as needed */
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) {
+    .welcome {
+        padding: 30px;
+    }
+
+    #intro2 {
+        font-size: 1.8rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+}
+
+/* Larger Screens (Desktops) */
+@media (min-width: 992px) {
+    .welcome {
+        padding: 40px;
+    }
+
+    #intro2 {
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+    }
+}   

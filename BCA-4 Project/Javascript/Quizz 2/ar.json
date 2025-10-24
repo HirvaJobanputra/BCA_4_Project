@@ -1,0 +1,299 @@
+[
+    {
+      "question": "What does FPS stand for in gaming?",
+      "answers": ["a) Frames Per Second", "b) First Person Shooter", "c) Fast Paced Strategy", "d) Fighting Point System"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of these is a popular game engine?",
+      "answers": ["a) Unity", "b) Unreal Engine", "c) Both a and b", "d) Neither a nor b"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is the term for a game played over a network?",
+      "answers": ["a) Single-player game", "b) Multiplayer game", "c) Offline game", "d) Local game"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which genre of games focuses on storytelling and character development?",
+      "answers": ["a) Action", "b) Adventure", "c) Role-playing (RPG)", "d) Strategy"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is the term for a game's storyline?",
+      "answers": ["a) Gameplay", "b) Narrative", "c) Mechanics", "d) Level design"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of these is a popular esports game?",
+      "answers": ["a) League of Legends", "b) Fortnite", "c) Counter-Strike: Global Offensive", "d) All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "question": "What is the term for in-game items that can be purchased with real money?",
+      "answers": ["a) DLC", "b) Microtransactions", "c) Loot boxes", "d) All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "question": "What is the term for modifying a game to gain an unfair advantage?",
+      "answers": ["a) Cheating", "b) Glitching", "c) Exploiting", "d) All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "question": "Which platform is known for its indie game scene?",
+      "answers": ["a) PC", "b) PlayStation", "c) Xbox", "d) Nintendo Switch"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "What is the term for a game designed to teach a specific skill?",
+      "answers": ["a) Serious game", "b) Casual game", "c) Simulation game", "d) Educational game"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "What does MMORPG stand for?",
+      "answers": ["a) Massive Multiplayer Online Role-Playing Game", "b) Modern Multiplayer Online Racing Platform Game", "c) Mainframe Multiplayer Online Resource Program Game", "d) Media Multiplayer Online Real-Time Game"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which company developed the PlayStation console?",
+      "answers": ["a) Microsoft", "b) Nintendo", "c) Sony", "d) Sega"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is the name of the main character in the 'Legend of Zelda' series?",
+      "answers": ["a) Zelda", "b) Link", "c) Ganon", "d) Impa"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of these is a popular streaming platform for gamers?",
+      "answers": ["a) Vimeo", "b) Twitch", "c) Dailymotion", "d) Flickr"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which game is known for its 'block-building' gameplay?",
+      "answers": ["a) Grand Theft Auto", "b) Minecraft", "c) Call of Duty", "d) FIFA"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the name of the plumber character in the 'Super Mario Bros.' series?",
+      "answers": ["a) Luigi", "b) Bowser", "c) Mario", "d) Peach"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which company developed the Xbox console?",
+      "answers": ["a) Nintendo", "b) Sony", "c) Microsoft", "d) Sega"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is 'eSports'?",
+      "answers": ["a) Electronic Sports", "b) Extreme Sports", "c) Educational Sports", "d) Entertaining Sports"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which game series features the character 'Master Chief'?",
+      "answers": ["a) Halo", "b) Gears of War", "c) Metroid", "d) Doom"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which of these is a popular MOBA (Multiplayer Online Battle Arena) game?",
+      "answers": ["a) World of Warcraft", "b) Counter-Strike", "c) League of Legends", "d) Tetris"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is 'latency' in online gaming?",
+      "answers": ["a) The speed of the processor", "b) The delay between input and response", "c) The quality of the graphics", "d) The loudness of the audio"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which company developed the Nintendo Switch?",
+      "answers": ["a) Sony", "b) Microsoft", "c) Nintendo", "d) Valve"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is a 'roguelike' game?",
+      "answers": ["a) A racing simulation", "b) A game with permadeath and procedural generation", "c) A sports game", "d) A puzzle game"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of these is a popular battle royale game?",
+      "answers": ["a) Candy Crush", "b) Fortnite", "c) Farmville", "d) Solitaire"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What does 'NPC' stand for?",
+      "answers": ["a) Non-Player Character", "b) New Player Challenge", "c) Network Performance Control", "d) Normal Processing Core"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which game series features the character 'Lara Croft'?",
+      "answers": ["a) Uncharted", "b) Tomb Raider", "c) Assassin's Creed", "d) Prince of Persia"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is 'DLC' in gaming?",
+      "answers": ["a) Downloadable Content", "b) Digital Level Creation", "c) Direct Line Communication", "d) Dynamic Lighting Control"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which company developed the 'Grand Theft Auto' series?",
+      "answers": ["a) Ubisoft", "b) Rockstar Games", "c) Electronic Arts", "d) Activision"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is a 'sandbox' game?",
+      "answers": ["a) A game with linear levels", "b) A game with open-ended gameplay and freedom", "c) A game with limited interaction", "d) A game with strict rules and objectives"],
+      "correctAnswer": "b"
+    },
+    
+        {
+          "question": "What does FPS stand for in gaming?",
+          "answers": ["a) Frames Per Second", "b) First Person Shooter", "c) Fast Paced Strategy", "d) Fighting Point System"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which of these is a popular game engine?",
+          "answers": ["a) Unity", "b) Unreal Engine", "c) Both a and b", "d) Neither a nor b"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is the term for a game played over a network?",
+          "answers": ["a) Single-player game", "b) Multiplayer game", "c) Offline game", "d) Local game"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which genre of games focuses on storytelling and character development?",
+          "answers": ["a) Action", "b) Adventure", "c) Role-playing (RPG)", "d) Strategy"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is the term for a game's storyline?",
+          "answers": ["a) Gameplay", "b) Narrative", "c) Mechanics", "d) Level design"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which of these is a popular esports game?",
+          "answers": ["a) League of Legends", "b) Fortnite", "c) Counter-Strike: Global Offensive", "d) All of the above"],
+          "correctAnswer": "d"
+        },
+        {
+          "question": "What is the term for in-game items that can be purchased with real money?",
+          "answers": ["a) DLC", "b) Microtransactions", "c) Loot boxes", "d) All of the above"],
+          "correctAnswer": "d"
+        },
+        {
+          "question": "What is the term for modifying a game to gain an unfair advantage?",
+          "answers": ["a) Cheating", "b) Glitching", "c) Exploiting", "d) All of the above"],
+          "correctAnswer": "d"
+        },
+        {
+          "question": "Which platform is known for its indie game scene?",
+          "answers": ["a) PC", "b) PlayStation", "c) Xbox", "d) Nintendo Switch"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "What is the term for a game designed to teach a specific skill?",
+          "answers": ["a) Serious game", "b) Casual game", "c) Simulation game", "d) Educational game"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "What does MMORPG stand for?",
+          "answers": ["a) Massive Multiplayer Online Role-Playing Game", "b) Modern Multiplayer Online Racing Platform Game", "c) Mainframe Multiplayer Online Resource Program Game", "d) Media Multiplayer Online Real-Time Game"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "Which company developed the PlayStation console?",
+          "answers": ["a) Microsoft", "b) Nintendo", "c) Sony", "d) Sega"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is the name of the main character in the 'Legend of Zelda' series?",
+          "answers": ["a) Zelda", "b) Link", "c) Ganon", "d) Impa"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which of these is a popular streaming platform for gamers?",
+          "answers": ["a) Vimeo", "b) Twitch", "c) Dailymotion", "d) Flickr"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which game is known for its 'block-building' gameplay?",
+          "answers": ["a) Grand Theft Auto", "b) Minecraft", "c) Call of Duty", "d) FIFA"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "What is the name of the plumber character in the 'Super Mario Bros.' series?",
+          "answers": ["a) Luigi", "b) Bowser", "c) Mario", "d) Peach"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "Which company developed the Xbox console?",
+          "answers": ["a) Nintendo", "b) Sony", "c) Microsoft", "d) Sega"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is 'eSports'?",
+          "answers": ["a) Electronic Sports", "b) Extreme Sports", "c) Educational Sports", "d) Entertaining Sports"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "Which game series features the character 'Master Chief'?",
+          "answers": ["a) Halo", "b) Gears of War", "c) Metroid", "d) Doom"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "Which of these is a popular MOBA (Multiplayer Online Battle Arena) game?",
+          "answers": ["a) World of Warcraft", "b) Counter-Strike", "c) League of Legends", "d) Tetris"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is 'latency' in online gaming?",
+          "answers": ["a) The speed of the processor", "b) The delay between input and response", "c) The quality of the graphics", "d) The loudness of the audio"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which company developed the Nintendo Switch?",
+          "answers": ["a) Sony", "b) Microsoft", "c) Nintendo", "d) Valve"],
+          "correctAnswer": "c"
+        },
+        {
+          "question": "What is a 'roguelike' game?",
+          "answers": ["a) A racing simulation", "b) A game with permadeath and procedural generation", "c) A sports game", "d) A puzzle game"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "Which of these is a popular battle royale game?",
+          "answers": ["a) Candy Crush", "b) Fortnite", "c) Farmville", "d) Solitaire"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "What does 'NPC' stand for?",
+          "answers": ["a) Non-Player Character", "b) New Player Challenge", "c) Network Performance Control", "d) Normal Processing Core"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "Which game series features the character 'Lara Croft'?",
+          "answers": ["a) Uncharted", "b) Tomb Raider", "c) Assassin's Creed", "d) Prince of Persia"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "What is 'DLC' in gaming?",
+          "answers": ["a) Downloadable Content", "b) Digital Level Creation", "c) Direct Line Communication", "d) Dynamic Lighting Control"],
+          "correctAnswer": "a"
+        },
+        {
+          "question": "Which company developed the 'Grand Theft Auto' series?",
+          "answers": ["a) Ubisoft", "b) Rockstar Games", "c) Electronic Arts", "d) Activision"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "What is a 'sandbox' game?",
+          "answers": ["a) A game with linear levels", "b) A game with open-ended gameplay and freedom", "c) A game with limited interaction", "d) A game with strict rules and objectives"],
+          "correctAnswer": "b"
+        },
+        {
+          "question": "What is 'VR' in gaming?",
+           "answers": ["a) Virtual Reality", "b) Variable Resolution", "c) Visual Rendering", "d) Video Recording"],
+           "correctAnswer": "a"
+        }
+      
+]

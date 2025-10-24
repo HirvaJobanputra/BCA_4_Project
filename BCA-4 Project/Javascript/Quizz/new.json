@@ -1,0 +1,153 @@
+[
+    {
+      "question": "What does AR stand for?",
+      "answers": ["a) Advanced Reality", "b) Artificial Reality", "c) Augmented Reality", "d) Alternate Reality"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What does VR stand for?",
+      "answers": ["a) Virtual Reality", "b) Visual Reality", "c) Versatile Reality", "d) Virtual Realism"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which technology overlays digital information onto the real world?",
+      "answers": ["a) AR", "b) VR", "c) Both AR and VR", "d) Neither AR nor VR"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which technology immerses users in a completely virtual environment?",
+      "answers": ["a) AR", "b) VR", "c) Both AR and VR", "d) Neither AR nor VR"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of these is a popular AR device?",
+      "answers": ["a) Oculus Rift", "b) HTC Vive", "c) Microsoft HoloLens", "d) PlayStation VR"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which of these is a popular VR device?",
+      "answers": ["a) Google Glass", "b) Magic Leap", "c) Oculus Quest", "d) Nintendo Switch"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is the term for the feeling of presence in a virtual environment?",
+      "answers": ["a) Immersion", "b) Interaction", "c) Simulation", "d) Telepresence"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which of these is a common use case for AR in gaming?",
+      "answers": ["a) Creating immersive virtual worlds", "b) Providing real-time feedback on player performance", "c) Enhancing the real world with virtual objects", "d) Simulating realistic physics"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which of these is a common use case for VR in training?",
+      "answers": ["a) Providing interactive simulations of real-world scenarios", "b) Delivering lectures remotely", "c) Creating virtual tours of museums", "d) Designing 3D models"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "What is the term for the technology that tracks a user's movements in VR?",
+      "answers": ["a) Motion tracking", "b) Eye tracking", "c) Haptic feedback", "d) Spatial audio"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "What is the term for feedback that simulates the sense of touch?",
+      "answers": ["a) Spatial audio", "b) Haptic feedback", "c) Motion tracking", "d) Eye tracking"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which industry uses AR for virtual try-on experiences?",
+      "answers": ["a) Healthcare", "b) Retail", "c) Education", "d) Manufacturing"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the primary purpose of a head-mounted display (HMD) in VR?",
+      "answers": ["a) To project images onto a wall", "b) To capture user movements", "c) To display virtual environments", "d) To provide audio feedback"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which AR application helps with navigation by overlaying directions on the real world?",
+      "answers": ["a) Social media filters", "b) Location-based AR", "c) Virtual reality tours", "d) Medical imaging"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the visual discomfort experienced by some users in VR?",
+      "answers": ["a) Motion sickness", "b) Cyber sickness", "c) Simulator sickness", "d) All of the above"],
+      "correctAnswer": "d"
+    },
+    {
+      "question": "Which technology allows users to interact with virtual objects using hand gestures?",
+      "answers": ["a) Eye tracking", "b) Gesture recognition", "c) Spatial audio", "d) Haptic feedback"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the field that studies the interaction between humans and computers in virtual environments?",
+      "answers": ["a) Human-computer interaction (HCI)", "b) Artificial intelligence (AI)", "c) Computer graphics", "d) Game design"],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which industry uses VR for surgical training and simulations?",
+      "answers": ["a) Automotive", "b) Education", "c) Healthcare", "d) Retail"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What is the term for the creation of a realistic sound environment in VR?",
+      "answers": ["a) Haptic feedback", "b) Spatial audio", "c) Motion tracking", "d) Eye tracking"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of the following is a key challenge in AR development?",
+      "answers": ["a) Creating immersive virtual worlds", "b) Accurately tracking the real world", "c) Simulating realistic physics", "d) Providing haptic feedback"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the range of view that a user can see in a VR headset?",
+      "answers": ["a) Resolution", "b) Field of view (FOV)", "c) Refresh rate", "d) Latency"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which AR/VR application is used for virtual museum tours and historical recreations?",
+      "answers": ["a) Social media filters", "b) Educational tours", "c) Gaming applications", "d) Medical imaging"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the delay between a user's action and the corresponding response in VR?",
+      "answers": ["a) Refresh rate", "b) Latency", "c) Resolution", "d) Field of view (FOV)"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which technology allows for the tracking of a user's gaze in VR?",
+      "answers": ["a) Motion tracking", "b) Eye tracking", "c) Haptic feedback", "d) Spatial audio"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which industry uses AR for maintenance and repair instructions?",
+      "answers": ["a) Entertainment", "b) Manufacturing", "c) Finance", "d) Agriculture"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the level of detail displayed by a VR headset?",
+      "answers": ["a) Refresh rate", "b) Latency", "c) Resolution", "d) Field of view (FOV)"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which AR feature allows users to try out furniture in their own homes?",
+      "answers": ["a) Location based AR", "b) Virtual placement", "c) Social Media filters", "d) Educational tours"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for the number of times a VR display updates per second?",
+      "answers": ["a) Resolution", "b) Latency", "c) Refresh rate", "d) Field of view (FOV)"],
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which of the following is a potential ethical concern related to AR/VR?",
+      "answers": ["a) Increased productivity", "b) Data privacy", "c) Improved communication", "d) Enhanced creativity"],
+      "correctAnswer": "b"
+    },
+    {
+      "question": "What is the term for a virtual space where users can interact with each other and virtual objects?",
+      "answers": ["a) Hologram", "b) Metaverse", "c) Simulation", "d) Render"],
+      "correctAnswer": "b"
+    }
+  ]
+

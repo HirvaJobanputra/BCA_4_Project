@@ -1,0 +1,91 @@
+/* Full screen background */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/background.jpg")
+    no-repeat center center/cover;
+}
+/* Glassmorphism card */
+.glass-effect {
+  background: rgb(0, 0, 0);
+  backdrop-filter: brightness(0.8) grayscale(100%);
+  -webkit-backdrop-filter:brightness(0.8) grayscale(100%);
+  border-radius: 20px;
+  padding: 40px;
+  width: 350px;
+  box-shadow: 0 8px 32px rgb(7, 0, 0);
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Inputs */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #905111f3, #c5839494);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #c5839494, #5d091e94);
+}
+
+/* Footer link */
+.footer-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.link {
+  color: #c47a7df0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* For sign up page  */
+.signup-page{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://img.freepik.com/free-photo/tasty-pizza-near-ingredients_23-2147772080.jpg?semt=ais_items_boosted&w=740")
+    no-repeat center center/cover;
+}
+

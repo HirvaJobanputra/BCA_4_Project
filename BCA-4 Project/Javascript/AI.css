@@ -1,0 +1,112 @@
+body {
+    background-image: url('bg_cyberpunk4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Itim', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00FF99;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.question-button {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #00FF99;
+    border: 3px solid #00FF99;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 20px #00FF99;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.question-button:hover {
+    box-shadow: 0 0 30px #00FF99;
+    border-color: #00FFFF;
+}
+
+/* Question Display Styles */
+#question-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00FF99;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#question-container h2 {
+    font-size: 2.5em;
+    color: #00FFFF;
+    margin-bottom: 20px;
+}
+
+#answer-options {
+    margin-top: 20px;
+}
+
+.option-button {
+    background-color: #222;
+    color: #00FF99;
+    border: 1px solid #00FF99;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block; /* Make buttons stack vertically */
+    width: 100%; /* Full width */
+    text-align: left;
+}
+
+.option-button:hover {
+    background-color: #00FF99;
+    color: #222;
+}
+
+#next-button {
+    background-color: #00FF99;
+    color: #222;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #00FFFF;
+}
+
+/* Hide Setup Elements */
+.setup-section {
+    display: block; /* Initially visible */
+}
+
+.question-section {
+    display: none; /* Initially hidden */
+}

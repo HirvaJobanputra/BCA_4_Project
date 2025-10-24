@@ -1,0 +1,81 @@
+/* auth.css */
+
+.auth-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 1.5em; 
+    border-radius: 10px;
+    width: 500px;    
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+}
+
+.auth-form h2 {
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    color: #eee;
+    text-shadow: 0 0 5px #f0f;
+}
+
+.form-group {
+    display: flex; /* Use flexbox to align label and input */
+    align-items: center; /* Vertically align label and input */
+    margin-bottom: 1em; /* Reduced margin */
+}
+
+.form-group label {
+    flex-basis: 30%; /* Adjust label width as needed */
+    margin-right: 1em; /* Add space between label and input */
+    margin-bottom: 0; /* Remove bottom margin */
+    text-align: left;
+    color: #ddd;
+}
+
+.form-group input {
+    flex-basis: 70%; /* Adjust input width as needed */
+    padding: 0.6em; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
+
+.form-group input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00BFFF; /* Blue focus highlight */
+}
+
+.auth-form button {
+    width: 100%;
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    padding: 0.7em;
+}
+
+.signup-link,
+.login-link {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.signup-link a,
+.login-link a {
+    color: #FF69B4; /* Neon Pink */
+    text-decoration: none;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Inherit button styles from style.css for consistency */

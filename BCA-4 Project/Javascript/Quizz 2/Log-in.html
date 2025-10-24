@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | tECH Quizzes</title>
+    <link rel="stylesheet" href="style.css">  <!-- Use the same main stylesheet -->
+    <link rel="stylesheet" href="auth.css"> <!-- Custom styles for auth pages -->
+    <link rel="stylesheet" href="code.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1><span class="neon-text">tECH</span> <span class="glitch" data-text="Quizzes">Quizzes</span></h1>
+        </header>
+
+        <main>
+            <section class="auth-form">
+                <h2><span class="neon-text">Welcome Back,</span> Hacker.</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="button-secondary">Access System</button>
+                    <p class="signup-link">Need an Account? <a href="sign-up.html">Sign Up Here</a></p>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2077 tECH Quizzes</p>
+        </footer>
+    </div>
+
+    <script src="log-in.js"></script>
+</body>
+</html>

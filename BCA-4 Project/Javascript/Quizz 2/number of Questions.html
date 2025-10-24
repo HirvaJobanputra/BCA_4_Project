@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Questions | Neon Quizzes</title>
+    <link rel="stylesheet" href="number of Questions.css">
+    <link rel="stylesheet" href="code.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="neon-text">Neon</span> <span class="glitch" data-text="Quizzes">Quizzes</span></h1>
+        </header>
+        <main>
+            <div class="central-content">
+                <h2 class="slogan" style="margin-bottom: 0.1em;">Level Up Your Brainpower!</h2>
+                <section id="question-selection">
+                    <h2 style="margin-top: 0.1em;">Choose Your Challenge:</h2>
+                    <div class="card-container">
+                        <a href="MCQ.html" class="question-card" data-question-count="10">
+                            <span class="card-title">10 Questions</span>
+                        </a>
+                        <a href="MCQ.html" class="question-card" data-question-count="25">
+                            <span class="card-title">25 Questions</span>
+                        </a>
+                        <a href="MCQ.html" class="question-card" data-question-count="30">
+                            <span class="card-title">30 Questions</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2077 tECH Quizzes</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questionCards = document.querySelectorAll('.question-card');
+            questionCards.forEach(card => {
+                card.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const questionCount = this.dataset.questionCount;
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const subject = urlParams.get('subject');
+                    // Store the subject and question count in sessionStorage
+                    sessionStorage.setItem('subject', subject);
+                    sessionStorage.setItem('questionCount', questionCount);
+                    window.location.href = 'MCQ.html'; // Redirect without parameters
+                });
+            });
+        });
+    </script>
+</body>
+</html>
