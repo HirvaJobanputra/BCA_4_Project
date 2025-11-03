@@ -16,7 +16,7 @@ def adminTasks(admin):
         print(Fore.BLUE + Style.BRIGHT + Back.WHITE + "7. View all books 📚")
         print(Fore.BLUE + Style.BRIGHT + Back.WHITE + "8. Search for books 🔍")
         print(Fore.BLUE + Style.BRIGHT + Back.WHITE + "9. View library history 📖")
-        print(Fore.BLUE + Style.BRIGHT + Back.WHITE + "10. Exit 🚪")
+        print(Fore.BLUE + Style.BRIGHT + Back.WHITE + "10. Exit🚪")
 
         task = input(Fore.YELLOW + Style.BRIGHT + "Enter the task number: ")
 

@@ -83,21 +83,61 @@ class Member:
         transactions.append([mID, bookID, "Returned", datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
         Transaction.saveHistory(transactions)
         Book.saveBooks(books)
+        
         print(Fore.GREEN + "📥 Book returned successfully!")
 
     @staticmethod
     def viewBorrowedBooks(mID):
         transactions = Transaction.loadHistory()
-        borrowed_books = [record for record in transactions if record[0] == mID and record[2] == "Borrowed"]
+        
+        # 1. Get ONLY this member's book transactions (must have 4 fields)
+        member_book_history = [
+            record for record in transactions 
+            if record[0] == mID and len(record) == 4
+        ]
 
-        if not borrowed_books:
-            print(Fore.YELLOW + "📭 No borrowed books found.")
+        if not member_book_history:
+            print(Fore.YELLOW + "📭 You have not borrowed any books yet.")
             return
 
-        print(Fore.CYAN + Style.BRIGHT + "📕 Borrowed Books:")
-        for book in borrowed_books:
-            print(Fore.BLUE + f"Book ID: {book[1]} | Action: {book[2]} | Date: {book[3]}")
+        # 2. This dictionary will store the FINAL status of each book.
+        #    Key: BookID, Value: [Action, Date]
+        book_status = {}
 
+        # 3. Loop through all transactions...
+        for record in member_book_history:
+            book_id = record[1]
+            action = record[2]
+            date = record[3]
+            
+            # 4. This line is the magic! It automatically overwrites
+            #    the 'Borrowed' status if a 'Returned' one appears later.
+            book_status[book_id] = [action, date]
+
+        # 5. Now, print the final status list
+        print(Fore.CYAN + Style.BRIGHT + "📕 Your Book Status:")
+        
+        currently_borrowed_count = 0
+        
+        for book_id, status in book_status.items():
+            action = status[0]
+            date = status[1]
+            
+            if action == "Borrowed":
+                # It's currently borrowed! Print in bright white.
+                print(Fore.WHITE + Style.BRIGHT + f"  Book ID: {book_id} | Status: {action} | Date: {date}")
+                currently_borrowed_count += 1
+            else:
+                # It's returned. Print in a dimmer (cyan) color.
+                print(Fore.CYAN + f"  Book ID: {book_id} | Status: {action} | Date: {date}")
+
+        # Add a helpful summary at the end
+        if currently_borrowed_count == 0:
+            print(Fore.GREEN + "\n✅ You have no books currently checked out.")
+        else:
+            print(Fore.YELLOW + f"\n🔔 You have {currently_borrowed_count} book(s) currently checked out.")
+
+            
     @staticmethod
     def viewHistory(mID):
         transactions = Transaction.loadHistory()
@@ -109,7 +149,14 @@ class Member:
 
         print(Fore.CYAN + Style.BRIGHT + "🕓 Member History:")
         for record in member_history:
-            print(Fore.BLUE + f"Book ID: {record[1]} | Action: {record[2]} | Date: {record[3]}")
+            if len(record) == 4:
+                # For Borrow/Return records: [MemberID, BookID, Action, Date]
+                print(Fore.BLUE + f"Book ID: {record[1]} | Action: {record[2]} | Date: {record[3]}")
+            elif len(record) == 3:
+                # For Member creation/removal records: [MemberID, Action, Date]
+                print(Fore.BLUE + f"Action: {record[1]} | Date: {record[2]}")
+            else:
+                print(Fore.RED + "❌ Corrupted history record found.")
 
     @staticmethod
     def getBookSummary(bookId):

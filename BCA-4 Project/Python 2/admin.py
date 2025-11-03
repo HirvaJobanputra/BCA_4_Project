@@ -32,7 +32,7 @@ class Admin:
         else:
             print(Fore.CYAN + Style.BRIGHT + "📋 Members List:")
             for member in members:
-                print(Fore.WHITE + f"ID: {member[0]}, Name: {member[1]}, Email: {member[2]}")
+                print(Fore.WHITE + f"ID: {member[0]}, Name: {member[1]}, Email: {member[3]}")
 
     def searchMembers(self, searchTerm):
         members = Member.loadMembers()
